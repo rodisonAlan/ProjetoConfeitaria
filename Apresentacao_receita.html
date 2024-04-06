@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carol's Bakery Assistant-Próximas Encomendas</title>
+    <link rel="stylesheet" href="css/pedidos.css">
+</head>
+<body>
+    <form class="form" action="home.html">
+           <div class="card-top">
+             <img class="logo" src="imagens/logo.png" alt=""> 
+           </div>
+       <h2 class="title">Aprsentação das Receitas</h2>
+       <div class="container">
+        <div>
+            <img class="img-bolo" src="./imagens/bolo1.jpg" alt="bolo piscina">
+        </div>
+        <div class="descricao"> 
+            <h2> Bolo Piscina de chocolate</h2>
+            <p>Deliciosa receita de bolo de cenoura com uma deliciosa calda de chocolate</p>
+            <div class="btn-group-vertical d-grid gap-2" >
+                    <button type="button" class="ver receita">Ver Receita</button>
+                    
+            </div>
+            
+        </div>  
+
+          
+    </div>
+
+    <div class="tab">
+        <button type="button" class="tablinks" onclick="openCity('Ingredientes')">Ingredientes</button>
+        <button type="button" class="tablinks" onclick="openCity('Modo_de_Preparo')">Modo de Preparo</button>
+    </div> 
+
+    <div id="Ingredientes" class="conteudo">
+        <p>Ingredientes</p>
+        <br>
+        <textarea name="Consulta" id="Consulta" cols="40" rows="4"></textarea>
+    </div>
+
+    <div id="Modo_de_Preparo" class="conteudo"style="display:none">
+    <P>Modo de preparo</P>
+        <br>
+        <textarea name="Observacoes" id="Observacoes" cols="40" rows="4"></textarea>
+    </div>
+
+    <div class="card-group clicar">
+        <button type="submit"> <a href="./home.html">Registrar entrega</a></button>
+    </div>
+</div>
+
+
+</form>
+</body>
+
+</html>
